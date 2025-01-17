@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03 - atividade 03</title>
+</head>
+
+<body>
+    <h1> Formulário de cadastro !</h1>
+
+    <form action="/enviar" method="POST">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+        </div>
+        <br>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha">
+        </div>
+        <br>
+        <div>
+            <label for="pais">Nacionalidade:</label>
+            <select name="pais" id="pais">
+                <option value="brasil">Brasil</option>
+                <option value="argentina">Argentina</option>
+                <option value="uruguai">Uruguai</option>
+                <option value="chile">Chile</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="referencia">Referências:</label>
+            <textarea name="referencia" id="referencia"></textarea>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Corrigir</button>
+        </div>
+
+
+
+    </form>
+</body>
+
+</html>
